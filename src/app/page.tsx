@@ -87,11 +87,11 @@ export default function Home() {
           </button>
         </div>
         {totalAndaresFinal !== null && (
-          <div className="mt-4">
+          <div className="mt-4" style={{ color: 'limegreen'}}>
             O andar a partir do qual a lâmpada deverá quebrar é: {totalAndaresFinal}.
           </div>
         )}
-        <div className="mt-4">
+        <div className="mt-4" style={{ color: 'limegreen'}}>
           <pre>
             {steps}
           </pre>
