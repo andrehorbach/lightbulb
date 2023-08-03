@@ -33,7 +33,10 @@ export default function Home() {
     }
 
     // Se o loop terminar sem retorno, o andar é 100.
-    setSteps((prevSteps) => prevSteps + `The first light bulb didn't break at any floor, so the highest floor where it won't break is ${maxAndares}.\n`);
+    setSteps((prevSteps) => prevSteps + 
+      `A primeira lâmpada não quebrou em nenhum andar, 
+      então o andar onde ela deverá quebrar é o ${maxAndares}.\n`
+    );
     setTotalAndaresFinal(maxAndares);
   }
 
