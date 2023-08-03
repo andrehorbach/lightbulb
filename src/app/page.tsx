@@ -62,8 +62,8 @@ export default function Home() {
         <p>
           - Para isso, será utilizada a estratégia da busca binária (Binary Search)
         </p>
-        <div className="mt-20">
-          <p> Enter the floor where the light bulb breaks:</p><br/>
+        <div className="mt-10">
+          <p> Digite o andar que a lâmpada deverá quebrar:</p><br/>
           <input
             type="number"
             placeholder="Andar a quebrar"
